@@ -1,0 +1,184 @@
+/*----------------------
+COMMON CSS
+------------------------*/
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+p{    font-family: 'Roboto', sans-serif;}
+img{
+    width: 100%;
+}
+h2{font-size: 48px;}
+section {
+    height: 650px;
+    padding: 50px 0px;
+    
+}
+/*----------------------
+HEADER CSS
+------------------------*/
+header {
+    padding-right: 2%;
+    margin-right: 5%;
+    width: 93%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #3C3C3C;
+    padding: 25px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/*----------------------
+MY SELF CSS
+------------------------*/
+.my-self h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #363958;
+    margin-bottom: 0;
+}
+p{
+    color: #3E3E3E;
+    font-weight: 400;
+}
+.highlight{
+    color: #FF8367;
+}
+.width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+
+a.my-btn {
+    font-family: 'Roboto';
+    color: #fff;
+    background: orange;
+    padding: 20px 40px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+/*----------------------
+ABOUT ME CSS
+------------------------*/
+.about-me h1 {font-size: 80px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #363958;
+}
+.about-me p{
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+padding-right: 70px;
+}
+a.my-btn i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+/*----------------------
+PROJECT AREA CSS
+------------------------*/
+.project-area{
+    background-color: #F8F9FC;
+    padding-bottom: 150px;
+}
+.project-title{
+    text-align: center;
+    font-size: 48px;
+    padding: 35px 0px;
+}
+.project-highlight{
+    color: #F46060;
+    font-weight: 700;
+}
+.project{width: 30%;border-radius: 20px;padding: 0px 0%;margin: 1%;display: inline-block;font-family: 'Roboto';box-shadow: 0px 6px 19px #00000007;}
+.project h3{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.project-demo {background: #fff;padding: 15px;border-radius: 29px;}
+.project-wrappwer {
+    margin: 0 7%;
+}
+.project-des p {
+    line-height: 28px;
+    font-weight: 400;
+}
+/*----------------------
+FOOTER CSS
+------------------------*/
+footer {
+    padding: 130px 0;
+}
+.footer-first-part ul {
+    list-style: none;
+}
+.chat-text li {
+    padding: 35px 0px 35px 35px;
+    margin: 0 0px 0 -164px;
+    float: left;
+}
+
+.footer-first-part {
+    background: url(images/Group_33094_1.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    margin: 0 20%;
+}
+
+li.chat-title h2 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #fff;
+}
+li#chat-btn {
+    margin-top: 59px;
+    margin-left: 42%;
+}
+li#chat-title {margin-left: 15px;}
+
+.footer-end-part{
+    text-align: center;
+}
+.footer-end-part h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #696871;
+}
+
+.footer-end-part h3 {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.footer-end-part h3 a {
+    text-decoration: none;
+    color: #363958;
+}
