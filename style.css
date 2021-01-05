@@ -57,7 +57,7 @@ p{
     font-weight: 400;
 }
 .highlight{
-    color: #FF8367;
+    color: #f46060e8;
 }
 .width{
     width: 40%;
@@ -69,7 +69,12 @@ p{
 a.my-btn {
     font-family: 'Roboto';
     color: #fff;
-    background: orange;
+    background: linear-gradient(45deg,
+   
+#f2709c
+,
+#ff9472
+    );
     padding: 20px 40px;
     font-weight: 500;
     border-radius: 5px;
@@ -159,7 +164,7 @@ li.chat-title h2 {
 }
 li#chat-btn {
     margin-top: 59px;
-    margin-left: 42%;
+    margin-left: 40%;
 }
 li#chat-title {margin-left: 15px;}
 
@@ -181,4 +186,13 @@ li#chat-title {margin-left: 15px;}
 .footer-end-part h3 a {
     text-decoration: none;
     color: #363958;
+}
+ul.social-media {
+    list-style: none;
+}
+
+ul.social-media li {
+    display: inline-block;
+    width: 2%;
+    padding: 0 13px;
 }
