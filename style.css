@@ -10,11 +10,6 @@ img{
     width: 100%;
 }
 h2{font-size: 48px;}
-section {
-    height: 650px;
-    padding: 50px 0px;
-    
-}
 /*----------------------
 HEADER CSS
 ------------------------*/
@@ -46,6 +41,10 @@ nav ul li a {
 /*----------------------
 MY SELF CSS
 ------------------------*/
+.my-self{
+    height: 650px;
+    padding: 50px 0px;
+}
 .my-self h1{
     font-size: 80px;
     font-weight: bold;
@@ -75,7 +74,7 @@ a.my-btn {
 ,
 #ff9472
     );
-    padding: 20px 40px;
+    padding: 15px 40px;
     font-weight: 500;
     border-radius: 5px;
     text-decoration: none;
@@ -85,6 +84,10 @@ a.my-btn {
 /*----------------------
 ABOUT ME CSS
 ------------------------*/
+.about-me{
+    height: 650px;
+    padding: 50px 0px;
+}
 .about-me h1 {font-size: 80px;
     font-size: 48px;
     font-weight: bold;
@@ -108,7 +111,8 @@ PROJECT AREA CSS
 ------------------------*/
 .project-area{
     background-color: #F8F9FC;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 .project-title{
     text-align: center;
@@ -134,12 +138,12 @@ PROJECT AREA CSS
     font-weight: 400;
 }
 /*----------------------
-FOOTER CSS
+CHAT CSS
 ------------------------*/
-footer {
+.live-chat {
     padding: 80px 0;
 }
-.footer-first-part ul {
+.chat-first-part ul {
     list-style: none;
 }
 .chat-text li {
@@ -147,7 +151,7 @@ footer {
     float: left;
 }
 
-.footer-first-part {
+.chat-first-part {
     background: url(images/Group_33094_1.png);
     height: 250px;
     background-repeat: no-repeat;
@@ -167,22 +171,22 @@ li#chat-btn {
 }
 li#chat-title {margin-left: 15px;}
 
-.footer-end-part{
+.chat-end-part{
     text-align: center;
 }
-.footer-end-part h4 {
+.chat-end-part h4 {
     font-weight: 700;
     font-size: 24px;
     color: #696871;
 }
 
-.footer-end-part h3 {
+.chat-end-part h3 {
     font-family: 'Roboto';
     font-size: 36px;
     font-weight: 700;
     margin-top: 0;
 }
-.footer-end-part h3 a {
+.chat-end-part h3 a {
     text-decoration: none;
     color: #363958;
 }
@@ -194,4 +198,75 @@ ul.social-media li {
     display: inline-block;
     width: 2%;
     padding: 0 13px;
+}
+
+/*----------------------
+CONTACT AREA CSS
+------------------------*/
+
+.contact-area{
+    background-color: #F8F9FC;
+    padding-bottom: 100px;
+}
+
+.contact-wraapper {
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+}
+
+.text-input {
+    width: 49%;
+    display: inline-block;
+}
+
+.text-input input {
+    padding: 20px 205px 20px 25px;
+    font-size: 18px;
+    box-shadow: 0px 0px 40px #0000003d;
+    border: none;
+    border-radius: 4px;
+}
+.email-input input {
+    padding: 20px 260px 20px 25px;
+    width: 65%;
+    margin: 45px 0px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 40px #0000003d;
+}
+textarea {
+    padding: 20px 260px 20px 25px;
+    width: 65%;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0px 0px 40px #0000003d;
+    border-radius: 4px;
+}
+.submit-area input {
+    padding: 15px 55px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 0px 40px #dadada;
+    margin: 35px 0px;
+}
+input:focus,textarea:focus {
+    outline: none;
+}
+h2.contact-title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+/*----------------------
+FOOTER CSS
+------------------------*/
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
