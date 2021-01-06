@@ -123,13 +123,13 @@ PROJECT AREA CSS
     color: #F46060;
     font-weight: 700;
 }
-.project{width: 31%;border-radius: 20px;padding: 0px 0%;margin: 1%;display: inline-block;font-family: 'Roboto';box-shadow: 0px 6px 19px #00000007;}
+.project{width: 30%;border-radius: 20px;padding: 0px 0%;margin: 1%;display: inline-block;font-family: 'Roboto';box-shadow: 0px 6px 19px #00000007;}
 .project h3{
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 0;
 }
-.project-demo {background: #fff;padding: 15px;border-radius: 29px;}
+.project-demo {background: #fff;padding: 20px;border-radius: 29px;}
 .project-wrappwer {
     margin: 0 7%;
 }
@@ -216,28 +216,29 @@ CONTACT AREA CSS
 }
 
 .text-input {
-    width: 49%;
-    display: inline-block;
+    display: inline;
 }
 
 .text-input input {
-    padding: 20px 205px 20px 25px;
+    padding: 20px 200px 20px 20px;
     font-size: 18px;
     box-shadow: 0px 0px 40px #0000003d;
     border: none;
     border-radius: 4px;
+    margin: 0px 15px;
 }
 .email-input input {
     padding: 20px 260px 20px 25px;
-    width: 65%;
+    width: 61%;
     margin: 45px 0px;
     border: none;
     font-size: 18px;
     box-shadow: 0px 0px 40px #0000003d;
+    border-radius: 5px;
 }
 textarea {
     padding: 20px 260px 20px 25px;
-    width: 65%;
+    width: 61%;
     font-size: 18px;
     border: none;
     box-shadow: 0px 0px 40px #0000003d;
